@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    padding: 40px;
+}
+
+nav ul{
+    font-size: 19px;
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 18px;
+}
+
+nav ul li:hover {
+    background-color: green;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ol {
+    
+    font-size: 19px;
+    list-style-type: none;
+    display: inline;
+}
+
+nav ol li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+nav ol li:hover {
+    text-decoration: underline;
+}
+nav ol li a {
+    color: white;
+    text-decoration: none;
+}
+
+#textHeading {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: large;
+	color: white;
+	text-decoration: underline;
+}
+h1, h2 {
+    text-align: center;
+    line-height: 1.5;
+    margin: 25px;
+    padding-right: 160px;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 20px;
+	color: white;
+    text-decoration: underline
+}
+h3, h4 {
+    text-align: center;
+    line-height: 1.5;
+    margin: 25px;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 15px;
+	color: white;
+    text-decoration: underline
+}
+p {
+	text-align: center;
+    line-height: 1.5;
+    margin: 25px;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 20px;
+	color: white;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+#mainText {
+	text-align: center;
+    line-height: 1.5;
+    margin: 25px;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 20px;
+	color: white;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+aside {
+    text-align: left;
+    line-height: 1.5;
+    margin: 25px;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 15px;
+    color: white;
+}
+
+.images {
+    padding-left: 300px;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    width: 35%;
+    float: right;
+}
+.maps {
+    padding-bottom: 1%;
+    width: 35%;
+}
+
+.youtube {
+   padding-left: 300px;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    width: 35%;
+    float: right; 
+}
+
+.form {
+    color: #FFFFFF;
+    font-size: large;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    text-shadow: none;
+}
+footer {
+    margin-top: auto;
+    width: 100%;
+    position: absolute;
+    margin-top: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
